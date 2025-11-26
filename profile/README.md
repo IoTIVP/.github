@@ -1,19 +1,42 @@
-IoTIVP — Internet of Things Integrity Verification Protocol
+# IoTIVP — Internet of Things Integrity Verification Protocol
 
 A modular, lightweight, cryptographically-enhanced protocol suite designed to guarantee data integrity, tamper detection, and trustworthiness across IoT, robotics, sensors, and autonomous systems.
 
-IoTIVP consists of four layers:
+## What Is IoTIVP?
+IoTIVP defines a secure, end-to-end pipeline for verifiable IoT data:
 
-• IoTIVP-Binary — ultra-compact TLV-based packet format for low-power devices  
-• IoTIVP-Core — structured JSON schema + deterministic hashing pipeline  
-• IoTIVP-Verify — integrity scoring engine (0–100) using hash validation, timestamp behavior, nonces, anomaly detection, and behavioral heuristics  
-• IoTIVP-Gateway — converts Binary → Core → Verify and outputs trustworthy packets for robotics controllers, cloud functions, n8n flows, and dashboards
+### • IoTIVP-Binary  
+Ultra-compact TLV-based packet format for constrained devices (BLE, LoRa, WiFi, UWB, robotics).
 
-Mission:
-To build the global standard for verifiable IoT telemetry, ensuring connected systems can trust the data they act on.
+### • IoTIVP-Core  
+Structured JSON schema + deterministic hashing pipeline that forms the trusted data model.
 
-Vision:
-A secure, quantum-inspired integrity layer for every IoT ecosystem — from microcontrollers to cloud-native AI and robotics.
+### • IoTIVP-Verify  
+Integrity scoring engine (0–100) validating hashes, timestamps, nonces, anomalies, and behavior.
 
-Design Philosophy:
-Lightweight. Platform-agnostic. Secure by design. Future-ready.
+### • IoTIVP-Gateway  
+Bridge layer that converts Binary → Core → Verify and outputs trustworthy packets for cloud, robotics, n8n automations, and dashboards.
+
+---
+
+## Mission
+To set the global standard for verifiable IoT telemetry, ensuring that connected systems can trust the data they act on.
+
+## Vision
+A world where IoT, robotics, and autonomous systems operate on tamper-proof, integrity-verified data — even in low-power, low-bandwidth environments.
+
+## Design Principles
+- Lightweight  
+- Platform-agnostic  
+- Secure by design  
+- Quantum-inspired integrity concepts  
+- Ready for everything from microcontrollers to cloud-native AI
+
+---
+
+## IoTIVP Repositories
+- **IoTIVP-Binary** — wire-level data format  
+- **IoTIVP-Core** — structured data + hashing  
+- **IoTIVP-Verify** — trust scoring engine  
+- **IoTIVP-Gateway** — data pipeline bridge  
+- **.github** — organization profile
