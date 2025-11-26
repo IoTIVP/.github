@@ -160,5 +160,20 @@ If you’re building IoT networks, robotics fleets, smart cities, or secure auto
 
 ---
 
+# 📈 Version Roadmap
+
+| Version | Component | Status | Highlights |
+|--------|-----------|--------|------------|
+| 1.0    | Binary    | Released | TLV, hash footer, compact encoding |
+| 1.5    | Core      | Released | Deterministic hashing pipeline |
+| 1.5    | Verify    | Released | Integrity Score v2.0 |
+| 1.0    | Gateway   | Released | Binary→Core→Verify bridge |
+| 1.6    | All       | Planned | Profiles (Env, Industrial, Robotics) |
+| 1.7    | Verify    | Planned | Heuristics v2, streak detection |
+| 2.0    | Binary    | Future | Superposition Mode (IoTIVP-S) |
+| 2.0    | Verify    | Future | Dual-channel quantum-inspired verification |
+
+---
+
 # 🔐 IoTIVP — Trust the Data Behind the Automation  
 **Security. Integrity. Reliability. For every device, everywhere.**
